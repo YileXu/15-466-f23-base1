@@ -1,8 +1,8 @@
-# (TODO: your game's title)
+# Spacefield
 
 Author: Yile Xu
 
-Design: spaceman with jetpack
+Design: A spaceman in space using a jetpack 
 
 Screen Shot:
 
@@ -10,12 +10,12 @@ Screen Shot:
 
 How Your Asset Pipeline Works:
 
-1. use load_png() to load png into rgba format
-2. implement palette table base on the rgba values
-3. use palette table to make the rgba values represented by 0123
-4. seperate the 0123 format to two 01 formats
-5. according to the png size, seperate the 01 values to 8*8 and convert them to bit0s and bit1s
-6. draw them on screen!
+1. Use load_png() to load png into RGBA format
+2. Implement a palette table based on the RGBA values
+3. Use the palette table to make the RGBA values represented by 0123
+4. Separate the 0123 format into two 01 formats
+5. According to the PNG size, separate the 01 values to 8*8 and convert them to bit0s and bit1s
+6. Draw them on screen!
 
 How To Play: Press arrow keys to go up, left, and right
 
